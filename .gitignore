@@ -1,0 +1,82 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# misc
+.DS_Store
+.env.local
+.env.development
+.env.test
+.env.production
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.prod
+.env.dev
+
+package-lock.json
+
+### nextjs ###
+.next
+/.next
+/src/node
+/src/node_modules
+/node
+/out
+/target
+/node_modules
+/out
+debug.log
+
+# IntelliJ project files
+.idea
+out
+gen
+
+
+
+#.github 폴더와 내부 폴더는 적어줘도 gitignore가 안먹히는 것 같음.
+# /.github
+# .github
+# .github/workflows
+# /workflows
+# workflows
+
+
+#docker파일내부는 git에 올리지 않을 것.(무중단 배포가 불가능해짐)
+# /nextjs-app/docker
+# /docker
+# docker
+# 위의 폴더는 gitignore에 올리지말기.
